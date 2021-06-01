@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_563849_parknpool_allocation</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Allocation Form Screen">7763206007a8301090bff1d08c1ed03d</embedded_screen>
+        <item_view/>
+        <name>Allocation master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 11:55:05</sys_created_on>
+        <sys_id>7363206007a8301090bff1d08c1ed042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Allocation master_item</sys_name>
+        <sys_package display_value="ParkNPool" source="x_563849_parknpool">ced1e0ec0768301090bff1d08c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParkNPool">ced1e0ec0768301090bff1d08c1ed06d</sys_scope>
+        <sys_update_name>sys_sg_master_item_7363206007a8301090bff1d08c1ed042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 11:55:05</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Allocation List Screen View Config">3b63206007a8301090bff1d08c1ed01e</view_config>
+    </sys_sg_master_item>
+</record_update>

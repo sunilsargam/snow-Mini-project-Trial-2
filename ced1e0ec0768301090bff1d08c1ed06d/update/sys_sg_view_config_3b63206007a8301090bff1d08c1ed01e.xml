@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Allocation List Screen View Config</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 11:55:04</sys_created_on>
+        <sys_id>3b63206007a8301090bff1d08c1ed01e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Allocation List Screen View Config</sys_name>
+        <sys_package display_value="ParkNPool" source="x_563849_parknpool">ced1e0ec0768301090bff1d08c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParkNPool">ced1e0ec0768301090bff1d08c1ed06d</sys_scope>
+        <sys_update_name>sys_sg_view_config_3b63206007a8301090bff1d08c1ed01e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 11:55:04</sys_updated_on>
+        <table>x_563849_parknpool_allocation</table>
+        <template display_value="Applet 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+</record_update>

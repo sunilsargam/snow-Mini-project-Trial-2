@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>This is mobile version  - Trial 2</description>
+        <device_type>browser</device_type>
+        <hint>This is mobile version  - Trial 2</hint>
+        <name/>
+        <order/>
+        <roles>x_563849_parknpool.admin,x_563849_parknpool.editor</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 11:54:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c54364ec0768301090bff1d08c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ParkNPool</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ParkNPool" source="x_563849_parknpool">ced1e0ec0768301090bff1d08c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParkNPool">ced1e0ec0768301090bff1d08c1ed06d</sys_scope>
+        <sys_update_name>sys_app_application_c54364ec0768301090bff1d08c1ed053</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 11:54:21</sys_updated_on>
+        <title>ParkNPool</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

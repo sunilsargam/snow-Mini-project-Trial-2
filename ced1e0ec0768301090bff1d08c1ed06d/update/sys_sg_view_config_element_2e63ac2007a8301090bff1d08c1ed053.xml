@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>number_2-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 11:54:59</sys_created_on>
+        <sys_id>2e63ac2007a8301090bff1d08c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number_2-FieldValue</sys_name>
+        <sys_package display_value="ParkNPool" source="x_563849_parknpool">ced1e0ec0768301090bff1d08c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ParkNPool">ced1e0ec0768301090bff1d08c1ed06d</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_2e63ac2007a8301090bff1d08c1ed053</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 11:54:59</sys_updated_on>
+        <view_config display_value="ParkingSpace Detail Screen View Config">2263ac2007a8301090bff1d08c1ed04f</view_config>
+        <view_template_slot display_value="text_02">6c738dbc41e35010f877183fc9b8be9a</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>
