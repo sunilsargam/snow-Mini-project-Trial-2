@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="ParkingSpace" max_length="40" name="x_563849_parknpool_parkingspace" type="collection">
-        <element label="Number" max_length="40" name="number" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number 2" max_length="40" name="number_2" type="string"/>
+    <element label="ParkingSpace" max_length="40" name="x_563849_parknpool_parkingspace" sizeclass="15" type="collection">
+        <element choice="1" label="Availability" max_length="40" name="availability" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element label="In Time" max_length="40" name="in_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number " max_length="40" name="number_2" type="string"/>
+        <element attributes="encode_utf8=false" label="Occupied By" max_length="32" name="occupied_by" reference="sys_user" type="reference"/>
+        <element label="Out Time" max_length="40" name="out_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="occupied_by"/>
+        </index>
     </element>
 </database>

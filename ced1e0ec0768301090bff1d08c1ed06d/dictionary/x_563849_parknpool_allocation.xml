@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Allocation" max_length="40" name="x_563849_parknpool_allocation" type="collection">
-        <element label="Number" max_length="40" name="number" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number 2" max_length="40" name="number_2" type="string"/>
+    <element label="Allocation" max_length="40" name="x_563849_parknpool_allocation" sizeclass="10" type="collection">
+        <element display="true" label="Allocated Slot" mandatory="true" max_length="32" name="allocated_slot" reference="x_563849_parknpool_parkingspace" reference_qual="availability=yes^EQ" reference_qual_condition="availability=yes^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Email" max_length="32" name="email" reference="sys_user" type="reference"/>
+        <element label="IN Time" max_length="40" name="in_time" type="glide_date_time"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="integer"/>
+        <element label="Occupied By" mandatory="true" max_length="32" name="occupied_by" reference="sys_user" type="reference"/>
+        <element label="Out Time" max_length="40" name="out_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IN or OUT" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="IN" sequence="0" value="in"/>
+                <element inactive_on_update="false" label="OUT" sequence="1" value="out"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="allocated_slot"/>
+        </index>
+        <index name="index2">
+            <element name="occupied_by"/>
+        </index>
+        <index name="index3">
+            <element name="email"/>
+        </index>
     </element>
 </database>

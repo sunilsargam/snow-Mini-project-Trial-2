@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="availability" table="x_563849_parknpool_parkingspace" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>availability</element>
+            <name>x_563849_parknpool_parkingspace</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 12:21:50</sys_created_on>
+            <sys_id>7389686407a8301090bff1d08c1ed0f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>availability</sys_name>
+            <sys_package display_value="ParkNPool" source="x_563849_parknpool">ced1e0ec0768301090bff1d08c1ed06d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ParkNPool">ced1e0ec0768301090bff1d08c1ed06d</sys_scope>
+            <sys_update_name>sys_choice_x_563849_parknpool_parkingspace_availability</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 12:21:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_563849_parknpool_parkingspace</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 12:22:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f299e86407a8301090bff1d08c1ed0de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 12:22:03</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>availability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_563849_parknpool_parkingspace</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-01 12:21:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6469686407a8301090bff1d08c1ed0ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-01 12:21:50</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
